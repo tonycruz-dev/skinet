@@ -1,0 +1,7 @@
+﻿
+C:\AppDev\ASP-CORE>dotnet dev-certs https
+A valid HTTPS certificate is already present.
+
+C:\AppDev\ASP-CORE>dotnet dev-certs https -t
+
+
