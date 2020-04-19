@@ -5,3 +5,11 @@ A valid HTTPS certificate is already present.
 C:\AppDev\ASP-CORE>dotnet dev-certs https -t
 
 
+Add-Migration InitialMagration
+Update-Database
+
+get-help add-migration
+Add-Migration InitialCreate -StartupProject API -Project Infrastructure -OutputDir Data/Migrations
+
+
+
