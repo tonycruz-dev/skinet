@@ -8,8 +8,10 @@ C:\AppDev\ASP-CORE>dotnet dev-certs https -t
 Add-Migration InitialMagration
 Update-Database
 
-get-help add-migration
+get-help Add-Migration
 Add-Migration InitialCreate -StartupProject API -Project Infrastructure -OutputDir Data/Migrations
+
+Add-Migration IdentityInitial -StartupProject API -Project Infrastructure -OutputDir Data/Identity/Migrations -Context AppIdentityDbContext
 
 
 
