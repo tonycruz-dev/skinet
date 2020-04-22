@@ -14,4 +14,7 @@ Add-Migration InitialCreate -StartupProject API -Project Infrastructure -OutputD
 Add-Migration IdentityInitial -StartupProject API -Project Infrastructure -OutputDir Data/Identity/Migrations -Context AppIdentityDbContext
 
 
+Add-Migration OrderWithEntityAdd -StartupProject API -Project Infrastructure -OutputDir Data/Migrations -Context StoreContext
+
+
 
