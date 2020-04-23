@@ -3,3 +3,5 @@ bin
 *.db
 *.rdb
 appsettings.json
+publish
+wwwroot
