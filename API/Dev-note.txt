@@ -19,7 +19,12 @@ Add-Migration IdentityMySqlInitial -StartupProject API -Project Infrastructure -
 
 Add-Migration MySqlInitial -StartupProject API -Project Infrastructure -OutputDir Data/Migrations -Context StoreContext
 
+
+Add-Migration MySqlInitial -StartupProject API -Project Infrastructure -OutputDir Data/Migrations -Context StoreContext
+
 development
 production
+
+ Drop-Database -Context StoreContext -StartupProject API -Project Infrastructure  
 
 
